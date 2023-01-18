@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgba(119, 95, 56, 0.445);
+    color: hsl(0deg 0% 100%);
+  }
+  
+  .container{
+    display: flex; height: 26rem;
+    padding: 2rem;
+    gap: 8rem;
+  }
+
+.container2{
+display: flex;
+justify-content: center;
+flex-direction: column; 
+}
+  
+ .box1337 {
+    background-color: rgba(119, 93, 50, 0.082);
+    padding: 2.5rem;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .box {
+    background-color: rgba(119, 93, 50, 0.082);
+    padding: 2.5rem;
+    width: 100%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .box3 {
+    background-color: rgba(119, 93, 50, 0.082);
+    padding: 2.5rem;
+    align-self: center;
+    display: flexbox;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 50%;
+    height: 14rem;
+  
+  }
+
+.box6 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.box4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+  .box5 {
+    display: flex;
+    justify-content: space-between
+    
+  }
+  
+  /* Titles */
+  .JoeB {
+    margin-bottom: rem;
+  }
+  
+  .work {
+    margin-bottom: 1rem;
+  }
+  
+  h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(104, 82, 65);
+  }
+
+  #laptopTitle{
+    text-align: center;
+  }
+
+  #DKK {
+    text-align: right;
+    padding-right: 5rem;
+  }
+
+  .SalaryBalance {
+    justify-content: space-between;
+  }
+  
+  .box2 {
+    
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .getLoan
+  {
+    display: flex;
+  justify-content: space-between;
+
+  }
+
+  .replaceBtn {
+    margin-bottom: 40rem;
+  }
+
+/* Buttons */
+    .loanBtn {
+      background-color: #4b8140d5;
+      border-radius: 3rem;
+      border-color: #105712c7;
+      padding: 0.3rem;
+      width: 16rem;
+    }
+
+    .paybackLoanBtn {
+      background-color: #4b8140d5;
+      border-radius: 3rem;
+      border-color: #105712c7;
+      padding: 0.3rem;
+      width: 16rem;
+    }
+  
+    .bankBtn {
+      background-color: #bc5acfb6;
+      border-radius: 3rem;
+      border-color: #62127a;
+      padding: 0.3rem;
+      width: 6rem;
+    }
+  
+    .workBtn {
+      background-color: #dbcf27;
+      border-radius: 3rem;
+      border-color: #85790e;
+      padding: 0.3rem;
+      width: 6rem;
+    }
+  
+    .buyBtn {
+      background-color: #00fff2;
+      border-radius: 3rem;
+      border-color: #097ec2bb;
+      padding: 0.3rem;
+      width: 10rem;
+    }
+    .transferLoanBtn {
+      background-color: #4b8140d5;
+      border-radius: 3rem;
+      border-color: #105712c7;
+      padding: 0.3rem;
+      width: 16rem;
+    }
+
+/* Laptop column     */
+    .laptop_text {
+      margin-bottom: 0.8rem;
+    }
+  
+    .dropdown {
+      margin-bottom: 1rem;
+    }
+  
+    .description_text {
+      margin-bottom: 2rem;
+    }
+  
+    .features_text {
+      margin-bottom: 0.5rem;
+    }
+
+    #img {
+      width: 7rem;
+      height: 7rem;
+    }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Komputer Store</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Welcome to Komputer Store</h1>
+
+        <div class="container">
+            <div class="box1337">
+                <h2 class="JoeB">Joe Banker</h2>
+                <p>Balance:</p>
+                <p class="bankBalance"></p>
+                <p>Loan balance:</p>
+                <p class="showLoanBalance"></p>
+                <div>
+                    <div class="LoanBalance">
+                        <p>Due Loan balance:</p>
+                        <p class="showLoan"></p>
+                    </div>
+
+                    <div class="box5000">
+                        <div class="getLoan">
+                            <button class="loanBtn">Get loan</button>
+                            <button class="transferLoanBtn">Transfer loan</button>
+                        </div>
+                    </div>
+
+
+                    <div class="paybackLoan">
+                        <button class="paybackLoanBtn" id="paybackLoanBtn" hidden>Payback loan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2 class="work">Work</h2>
+                <div class="SalaryBalance">
+                    <p>Salary balance:</p>
+                    <p class="workSalary"></p>
+                </div>
+
+                <div class="box2">
+                    <button class="bankBtn">Bank</button>
+                    <button class="workBtn">Work</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2 class="laptop_text">Laptops</h2>
+                <div class="dropdown">
+                    <select name="laptops" id="laptops"></select>
+                </div>
+                <div class="description_text">
+                    <p id="description"></p>
+                </div>
+                <h3 class="features_text">Features:</h3>
+                <p id="features"></p>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="box3">
+                <h2 id="laptopTitle"></h2>
+                <div class="box5">
+                    <img id="img" />
+                    <div class="box4">
+                        <h2 id="DKK"></h2>
+                        <button class="buyBtn">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="javascript.js"></script>
+        <script src="buttons.js"></script>
+</body>
+
+</html>
